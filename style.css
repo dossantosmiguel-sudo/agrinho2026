@@ -1,0 +1,17 @@
+body{
+    background-color: rgb(255, 255, 255);
+    color: green;
+    font-family: 'Courier New', Courier, monospace;
+    display:flex;
+    height: 700px;
+    margin:0;
+padding-left: 100px;
+}
+.gueguel{
+    display:flex-start;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(0, 0, 0);
+    text-shadow:rgb(47, 195, 87);
+    font-size: 30px;
+    text-align: center;
+}
