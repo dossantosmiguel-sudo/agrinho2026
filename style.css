@@ -11,7 +11,7 @@ padding-left: 100px;
     display:flex-start;
     font-family: 'Courier New', Courier, monospace;
     color: rgb(0, 0, 0);
-    text-shadow:rgb(47, 195, 87);
+    text-shadow:rgb(0, 0, 0);
     font-size: 30px;
     text-align: center;
 }
