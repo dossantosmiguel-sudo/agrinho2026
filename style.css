@@ -1,6 +1,6 @@
 body{
     background-color: white;
-    color: green;
+    color: black;
     font-family: 'Roboto', sans-serif;
     display:flex;
     height: 700px;
@@ -10,8 +10,8 @@ padding-left: 100px;
 .gueguel{
     display:flex-start;
     font-family: 'Roboto', sans-serif;
-    color: rgb(0, 0, 0);
-    text-shadow:rgb(0, 0, 0);
+    color: rgb(0, 131, 0);
+    text-shadow:rgb(0, 131, 0);
     font-size: 30px;
     text-align: center;
 }
