@@ -14,7 +14,18 @@
      Modo Escuro
 </button>
 
-
+<section id="welcome-section" class="card">
+            <form id="form-user" onsubmit="event.preventDefault();">
+                <label for="user-name" class="form-label">Qual seu nome?</label>
+                <div class="input-group">
+                    <input type="text" id="user-name" placeholder="Digite seu nome aqui..." required>
+                    <button type="button" id="btn-submit-name" class="btn-primary">Enviar</button>
+                </div>
+            </form>
+            
+            <div id="dynamic-response" class="hidden-element">
+                <p id="welcome-message"></p>
+</div>
 
         <div class="passo ativo" id="passo-0">
         <div class="gueguel">
