@@ -1,7 +1,7 @@
 body{
     background-color: green;
     color: black;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Roboto', sans-serif;
     display:flex;
     height: 700px;
     margin:0;
@@ -9,13 +9,13 @@ padding-left: 100px;
 }
 .gueguel{
     display:flex-start;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Roboto', sans-serif;
     color: rgb(0, 0, 0);
     text-shadow:rgb(0, 0, 0);
     font-size: 30px;
     text-align: center;
 }
-{
+ body{
     background: white;
     color: black;
     transition: 0.3s;
