@@ -19,13 +19,15 @@ const contentSection = document.getElementById('content-section');
 const toggleThemeBtn = document.getElementById('toggle-theme-btn');
 
 
-btnSubmitName.addEventListener('click', () => {
+btnSubmitName.addEventListener('click'), () => {
 
-    const userName = inputName.value.trim();
+    const userName = inputName.value.trim();}
 
     if (userName !== "") {
+        
+    }
     
-        welcomeMessage.innerHTML = `Olá <strong>${userName}</strong>, seja bem vindo, vamos descobrir informações sobre dispositivos tecnológicos no agro.;
+        welcomeMessage.innerHTML = `Olá <strong>${userName}</strong>, seja bem vindo, vamos descobrir informações sobre dispositivos tecnológicos no agro.; 
         
         dynamicResponseDiv.classList.remove('hidden-element');
     } else {
