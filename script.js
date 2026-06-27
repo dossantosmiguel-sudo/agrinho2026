@@ -10,6 +10,7 @@ avanca.forEach(button => {
         document.getElementById(proximoPasso).classList.add('ativo');
     });
 });
+
 const btnSubmitName = document.getElementById('btn-submit-name');
 const inputName = document.getElementById('user-name');
 const dynamicResponseDiv = document.getElementById('dynamic-response');
@@ -18,24 +19,25 @@ const btnReady = document.getElementById('btn-ready');
 const contentSection = document.getElementById('content-section');
 const toggleThemeBtn = document.getElementById('toggle-theme-btn');
 
+// Função para processar o nome e exibir a saudação inicial
+btnSubmitName.addEventListener('click', () => {
+    // Armazena o nome digitado em uma variável tirando espaços extras
+    const userName = inputName.value.trim();
 
-btnSubmitName.addEventListener('click'), () => {
-
-    const userName = inputName.value.trim();}
-
+    // Valida se o campo não está vazio
     if (userName !== "") {
+        // Altera o texto da mensagem de forma funcional e personalizada
+        welcomeMessage.innerHTML = `Olá <strong>${userName}</strong>, fico feliz em te ter aqui. Agora vamos aprender sobre a tecnologia no agro!`;
         
-    }
-    
-        welcomeMessage.innerHTML = `Olá <strong>${userName}</strong>, seja bem vindo, vamos descobrir informações sobre dispositivos tecnológicos no agro.; 
-        
+        // Remove a classe para mostrar a mensagem e o próximo botão
         dynamicResponseDiv.classList.remove('hidden-element');
     } else {
-        alert("Digite o nome antes de enviar.");
+        alert("Por favor, digite o seu nome antes de enviar.");
     }
 });
 
+// Função para revelar o conteúdo principal do site
 btnReady.addEventListener('click', () => {
-
+    // Remove a classe que esconde a seção sobre tecnologia no agro
     contentSection.classList.remove('hidden-element');
 });
