@@ -14,7 +14,7 @@ font-family: 'Roboto', sans-serif;
 }
 
 
-.dark {
+body.dark {
     background: #121212;
     color: white;
 }
@@ -43,11 +43,11 @@ main{
 }
 .quadro-branco {
     background-color: #ffffff;
-    color: #000000; /* Texto estrito em preto */
-    transition: background-color 0.3s, color 0.3s; /* Transição suave */
+    color: #000000; 
+    transition: background-color 0.3s, color 0.3s; 
 }
 
-/* Garante que inputs e botões dentro do quadro sigam o padrão claro */
+
 .quadro-branco input, 
 .quadro-branco button {
     background-color: #ffffff;
@@ -55,22 +55,30 @@ main{
     border: 1px solid #ccc;
 }
 
-
-
-body.dark-mode .quadro-branco {
-    background-color: #1e1e1e; 
-    color: #ffffff;            
+body.dark main {
+    background-color: #1e1e1e;
+    color: #ffffff;
 }
 
-
-body.dark-mode .quadro-branco input {
+body.dark input {
     background-color: #333333;
     color: #ffffff;
     border: 1px solid #555555;
 }
 
-body.dark-mode .quadro-branco button {
+body.dark button {
     background-color: #444444;
     color: #ffffff;
     border: 1px solid #666666;
 }
+
+body.dark h1,
+body.dark h2,
+body.dark h3,
+body.dark p,
+body.dark label {
+    color: #ffffff;
+}
+
+
+
