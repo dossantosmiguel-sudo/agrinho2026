@@ -1,11 +1,9 @@
 body{
+    margin: 0;
     background-color: #dff2d8;
     color: #333;
     font-family: 'Roboto', sans-serif;
-    display:flex;
-    height: 700px;
-    margin:0;
-padding-left: 100px;
+
 }
 .gueguel{
     display:flex-start;
