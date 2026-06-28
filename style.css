@@ -74,22 +74,3 @@ body.dark-mode .quadro-branco button {
     color: #ffffff;
     border: 1px solid #666666;
 }
-body {
-    background: #f0f0f0;
-    color: black;
-}
-
-.container {
-    background: white;
-    color: black;
-}
-
-body.dark {
-    background: #121212;
-    color: white;
-}
-
-body.dark .container {
-    background: #1e1e1e; 
-    color: white;        
-}
