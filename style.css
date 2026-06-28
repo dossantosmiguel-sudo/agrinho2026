@@ -56,14 +56,13 @@ main{
 }
 
 
-/* --- ESTILO DO MODO ESCURO --- */
-/* Quando o body tiver a classe .dark-mode, o quadro muda por completo */
+
 body.dark-mode .quadro-branco {
-    background-color: #1e1e1e; /* Inverte o fundo para um cinza escuro/preto */
-    color: #ffffff;            /* Inverte o texto para branco */
+    background-color: #1e1e1e; 
+    color: #ffffff;            
 }
 
-/* Ajusta também os inputs e botões para o modo escuro */
+
 body.dark-mode .quadro-branco input {
     background-color: #333333;
     color: #ffffff;
@@ -74,4 +73,23 @@ body.dark-mode .quadro-branco button {
     background-color: #444444;
     color: #ffffff;
     border: 1px solid #666666;
+}
+body {
+    background: #f0f0f0;
+    color: black;
+}
+
+.container {
+    background: white;
+    color: black;
+}
+
+body.dark {
+    background: #121212;
+    color: white;
+}
+
+body.dark .container {
+    background: #1e1e1e; 
+    color: white;        
 }
