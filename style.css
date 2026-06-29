@@ -50,8 +50,8 @@ main{
 
 .quadro-branco input, 
 .quadro-branco button {
-    background-color: beige;
-    color: beige;
+    background-color: rgb(231, 231, 154);
+    color: rgb(231, 231, 154);
     border: 1px solid #ccc;
 }
 
