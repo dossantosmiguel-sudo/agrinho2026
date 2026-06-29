@@ -1,11 +1,17 @@
 
-
+// Seleciona o botão de enviar o nome
 const btnSubmitName = document.getElementById('btn-submit-name');
+// Seleciona o campo de input onde o usuário digita o nome
 const inputName = document.getElementById('user-name');
+// Seleciona a div que vai mostrar a resposta dinâmica
 const dynamicResponseDiv = document.getElementById('dynamic-response');
+// Seleciona o elemento de texto da mensagem
 const welcomeMessage = document.getElementById('welcome-message');
+// Seleciona o botão "Pronto"
 const btnReady = document.getElementById('btn-ready');
+// Seleciona a seção principal de conteúdo da página
 const contentSection = document.getElementById('content-section');
+// Seleciona o botão que alterna o tema
 const toggleThemeBtn = document.getElementById('toggle-theme-btn');
 
 // Função para processar o nome e exibir a saudação inicial
@@ -16,7 +22,7 @@ btnSubmitName.addEventListener('click', () => {
     // Valida se o campo não está vazio
     if (userName !== "") {
         // Altera o texto da mensagem de forma funcional e personalizada
-        welcomeMessage.innerHTML = `Olá <strong>${userName}</strong>, fico feliz em te ter aqui. Agora vamos aprender sobre a tecnologia no agro!`;
+        welcomeMessage.innerHTML = `Olá <strong>${userName}</strong>, seja bem vindo, vamos aprender coisas novas.`;
         
         // Remove a classe para mostrar a mensagem e o próximo botão
         dynamicResponseDiv.classList.remove('hidden-element');
