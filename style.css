@@ -43,7 +43,7 @@ main{
 }
 .quadro-branco {
     background-color: beige;
-    color: #000000; 
+    color: beige; 
     transition: background-color 0.3s, color 0.3s; 
 }
 
@@ -51,7 +51,7 @@ main{
 .quadro-branco input, 
 .quadro-branco button {
     background-color: beige;
-    color: #000000;
+    color: beige;
     border: 1px solid #ccc;
 }
 
