@@ -9,7 +9,7 @@ Instrução de uso:
 2. Abaixo terá um campo para colocar o nome, após colocar seu nome, aperte no botão salvar para ser enviado a mensagem de boas vindas. 
 3. Após isto terá todas as informações sobre o tema abordado. 
 
- Acréscimos: 
+ Implementação: 
  Acessibilidade visual, foi acrescentado no site o modo escuro, que altera as cores do site para uma paleta mais escura. 
 Efeito visual, as cores dos títulos estão diferentes, para que chame a atenção do usuário a ler o conteúdo.
 Interatividade, um campo para o usuário colocar seu nome e receber a mensagem de boas vindas, assim deixando ele confortável e esperançoso com todas informações. 
