@@ -1,3 +1,4 @@
+/*Estilos gerais do body*/
 body{
     margin: 0;
     background-color: rgba(6, 150, 30, 0.814);
@@ -5,6 +6,7 @@ body{
     font-family: 'Roboto', sans-serif;
 
 }
+/* Título com estilização alternativa*/
 .gueguel{
 font-family: 'Arial', sans-serif;
     color: rgb(0, 0, 0);
@@ -13,11 +15,12 @@ font-family: 'Arial', sans-serif;
     text-align: center;
 }
 
-
+/*Cores principais do modo escuro*/
 body.dark {
     background: #121212;
     color: white;
 }
+/*Estrutura e layout principal*/
 header {
     background: #2e7d32;
     color: white;
@@ -41,19 +44,21 @@ main{
     border-radius: 15px;
     box-shadow: 0 0 15px rgba(0,0,0,0.2);
 }
+/*Componente de Quadro de Destaque*/
 .quadro-branco {
     background-color: rgb(220, 220, 159);
     color: rgb(220, 220, 159); 
     transition: background-color 0.3s, color 0.3s; 
 }
 
-
+/* Estilização de Inputs e Botões dentro do Quadro de Destaque */
 .quadro-branco input, 
 .quadro-branco button {
     background-color: rgb(231, 231, 154);
     color: rgb(231, 231, 154);
     border: 1px solid #ccc;
 }
+/*Modo escuro*/ 
 
 body.dark main {
     background-color: #1e1e1e;
@@ -79,6 +84,8 @@ body.dark p,
 body.dark label {
     color: #ffffff;
 }
+/*Classes para definir cor ao título*/
+
 .titulo1 {
     color: #2E8B57; 
 }
